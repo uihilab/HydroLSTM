@@ -9,6 +9,9 @@ The whole dataset in the paper "Distributed long-term hourly streamflow predicti
 ## Task
 To predict the hourly discharge as good as we can. So, both models are beyond the traditional rainfall-runoff models since we used the current discharge for data assimilation.  
 
+## Environment
+This repo provides an end-to-end example from the original data to the results and evaluation. It is created in Google's Colab, working on Python 3 with Tensorflow>=2.0.
+
 ## Models
 ### Model 1: [Encoder-Decoder LSTM (LSTM-seq2seq)](model1_EDLSTM.ipynb).
 This model have shown strong predictability on the 24 hours predictions as presented in the paper:  
