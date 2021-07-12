@@ -28,7 +28,7 @@ The model is presented in the paper: Xiang, Z., & Demir, I. (2020). Distributed 
 ### Model 3:  [Neural Runoff Model - Generalized (NRM-G)](model3_NRM-G.ipynb).
 We developed a generalized model with a multi-site structure for hourly streamflow forecast on 125 USGS gauges. Considering watershed-scale features including drainage area, time of concentration, slope, and soil types, the proposed models have acceptable performance and slightly higher model performance than training individual models for each USGS station.
 
-The model is presented in the paper:  Xiang, Z., & Demir, I. (2020). Distributed long-term hourly streamflow predictions using deep learning–A case study for State of Iowa. Environmental Modelling & Software, 104761. https://www.sciencedirect.com/science/article/abs/pii/S1364815220301900
+The model is presented in the paper:  Xiang, Z., Demir, I., Mantilla, R., & Krajewski, W. F. (2021). A Regional Semi-Distributed Streamflow Model Using Deep Learning. DOI: https://doi.org/10.31223/X5GW3V
 
 ## Acknowledgements
 This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab): https://hydroinformatics.uiowa.edu/.
