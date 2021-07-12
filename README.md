@@ -1,5 +1,5 @@
 # Hydro Deep Learning
-Deep Learning (LSTM/GRU) Models with Data for Streamflow Forecasting
+Sequence Deep Learning Models (LSTM/GRU/TCN) with Data for Streamflow Forecasting
 
 ## Data
 This repo aims to share the models in the paper "A rainfall‐runoff model with LSTM‐based sequence‐to‐sequence learning" and "Distributed long-term hourly streamflow predictions using deep learning–A case study for State of Iowa.". We simply shared one sample data of the catchment of USGS 05389000 Yellow River near Ion, IA in 521_data.csv.  
@@ -23,7 +23,10 @@ Xiang, Z., Yan, J., & Demir, I. (2020). A rainfall‐runoff model with LSTM‐ba
 To solve the bottle-neck problem of the state vector in model 1, we proposed the second model for the prediction of the future 120 hours. The model is presented in the paper:  
 Xiang, Z., & Demir, I. (2020). Distributed long-term hourly streamflow predictions using deep learning–A case study for State of Iowa. Environmental Modelling & Software, 104761. https://www.sciencedirect.com/science/article/abs/pii/S1364815220301900
 
-### Model 3: 
+### Model 3:  [Neural Runoff Model - Generalized (NRM-G)](model3_NRM-G.ipynb).
+We developed a generalized model with a multi-site structure for hourly streamflow forecast on 125 USGS gauges. Considering watershed-scale features including drainage area, time of concentration, slope, and soil types, the proposed models have acceptable performance and slightly higher model performance than training individual models for each USGS station.
+The model is presented in the paper:  
+Xiang, Z., & Demir, I. (2020). Distributed long-term hourly streamflow predictions using deep learning–A case study for State of Iowa. Environmental Modelling & Software, 104761. https://www.sciencedirect.com/science/article/abs/pii/S1364815220301900
 
 ## Acknowledgements
 This project is developed by the University of Iowa Hydroinformatics Lab (UIHI Lab): https://hydroinformatics.uiowa.edu/.
